@@ -1,0 +1,200 @@
+body
+{
+  background-image: url("four.jpg");
+  background-color: #cccccc;
+  height:650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header
+{
+/*background-color:#FFF1DB;*/
+text-align:center;
+/*font-size: 70px;*/
+font-size:5vw;
+color: #191970;
+border-radius: 12px;
+font-weight: bold;
+border: 1px solid #A0522D;
+text-shadow: 2px 2px 2px #A0522D;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*div{
+	display: inline-block;
+}*/
+
+.options {
+  position: absolute;
+  width: 150x;
+  height: 170px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  margin: -10px 0 0 -150px;
+  /*background: red;*/
+/*  display: none;
+*/  /*background: red;
+  align-content: center;*/
+}
+
+#login_btn{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #800000;
+	color: #FFDEAD;
+	font-family:"Impact", "Charcoal", "sans-serif" ;
+	font-size:3vw;
+	width: 20vw;
+	border-radius: 12px;
+	border: 2px solid #A0522D; 
+	cursor: pointer;
+	/*display: none;*/
+}
+
+#login_btn:hover{
+	background-color: #FFDEAD;
+	color: #800000;
+}
+
+#signup_btn:hover , .submit:hover{
+	background-color: #FFDEAD;
+	color: #800000;
+}
+.submit{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #800000;
+	color: #FFDEAD;
+	font-family:"Impact", "Charcoal", "sans-serif" ;
+	font-size:2vw;
+	width: 10vw;
+	border-radius: 12px;
+	border: 2px solid #A0522D;
+	cursor: pointer;
+}
+
+#signup_btn{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #800000;
+	color: #FFDEAD;
+	font-family:"Impact", "Charcoal", "sans-serif" ;
+	font-size:3vw;
+	width: 20vw;
+	border-radius: 12px;
+	border: 2px solid #A0522D;
+	cursor: pointer;
+}
+
+.signup-form-popup h3{
+	display: inline;
+}
+
+.login-form-popup{
+		position: absolute;
+		width: 250px;
+		height: 300px;
+		text-align:center;
+		background-color: green;
+		border-radius: 50px;
+		background: transparent;
+		margin-top: 100px;
+		margin-left: 500px;
+		display: none;
+}
+
+.signup-form-popup{
+	position: absolute;
+	width: 800px;
+	height: 600px;
+	text-align:center;
+	background : transparent;
+	border-radius: 50px;
+	margin-left: 340px;
+	display: none;	
+}
+
+.x{
+	display: inline-block;
+}
+input{
+	display: inline;
+	padding: 10px;
+	border: 2px solid;
+  	border-radius: 6px;
+  	background-color: #FFDEAD;
+	color:#800000 ;
+	font-family:"Impact", "Charcoal", "sans-serif" ;
+}
+
+
+
+/* Full-width input fields */
+.form-container-personal input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  background-color:#FFDEAD;
+}
+
+.form-container-academics input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  background-color: #FFDEAD;
+
+}
+
+/* When the inputs get focus, do something */
+.form-container-personal input:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container-academics input:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+
+/*Styling for password validation starts from here
+*/
+			.message{
+				position: absolute;
+				width: 200px;
+				height: 210px;
+				/*text-align:center;*/
+				background-color: #ffffff; 
+				padding-left: 8px;
+				border-radius: 5px;
+				margin-left: 655px;
+				margin-top: 300px;
+				display: none;
+			}
+
+			/* Add a green text color and a checkmark when the requirements are right */
+			.valid {
+			  color: green;
+			}
+
+			.valid:before {
+			  position: absolute;
+			  /*left: -35px;
+			  content: "✔";*/
+			}
+
+			/* Add a red text color and an "x" when the requirements are wrong */
+			.invalid {
+			  color: red;
+			}
+
+			.invalid:before {
+			  position: absolute;
+			  /*left: -35px;
+			  content: "✖";*/
+			}
+/*Styling for password validation ends here
+*/
